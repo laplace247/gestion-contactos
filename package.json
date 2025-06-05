@@ -1,16 +1,21 @@
 {
-  "name": "gestion-contactos",
+  "name": "gestion-contactos-api",
   "version": "1.0.0",
-  "description": "API REST para gestionar contactos utilizando Express y MongoDB.",
+  "description": "API REST para gestión de contactos - AtenciónTotal",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.10.9",
-    "body-parser": "^1.19.0"
+    "express": "^4.18.2",
+    "mongoose": "^6.10.0",
+    "body-parser": "^1.20.2"
   },
-  "author": "",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "keywords": ["api", "rest", "contacts", "mongodb"],
+  "author": "AtenciónTotal",
   "license": "ISC"
 }
