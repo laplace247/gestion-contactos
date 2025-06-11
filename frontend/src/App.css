@@ -149,7 +149,7 @@ footer {
 }
 
 .Toastify__toast--success {
-  background: var(--success-color);
+  background: white;
 }
 
 .Toastify__toast--error {
@@ -157,10 +157,10 @@ footer {
 }
 
 .Toastify__toast--warning {
-  background: var(--warning-color);
+  background: white;
   color: var(--dark-color);
 }
 
 .Toastify__toast--info {
-  background: var(--info-color);
+  background: white;
 }

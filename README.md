@@ -199,11 +199,11 @@ npm install
 
 # 4. Ejecutar Backend (Terminal 1)
 cd backend
-npm run dev
+npm run dev  # es para ejecutarlo
 
 # 5. Ejecutar Frontend (Terminal 2)
 cd frontend
-npm start
+npm start   # es para ejecutarlo
 
 # 6. Ejecutar MongoDB (Terminal 3 - si es local)
 mongod
