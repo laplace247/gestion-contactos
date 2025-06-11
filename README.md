@@ -21,10 +21,10 @@ Sistema completo de gestión de contactos con API REST (Node.js + Express + Mong
 
 ```
 gestion-contactos/
-├── 📁 backend/                          
-│   ├── 📁 models/
+├── backend/                          
+│   ├── models/
 │   │   └── Contact.js                   
-│   ├── 📁 routes/
+│   ├── routes/
 │   │   └── contactRoutes.js                         
 │   ├── app.js                           
 │   ├── package.json                     
@@ -33,18 +33,18 @@ gestion-contactos/
 │   ├── .gitignore                     
 │   └── README.md                       
 │
-├── 📁 frontend/                         
-│   ├── 📁 public/
+├── frontend/                         
+│   ├── public/
 │   │   ├── index.html
 │   │   ├── favicon.ico
 │   │   └── manifest.json
-│   ├── 📁 src/
-│   │   ├── 📁 components/
+│   ├── src/
+│   │   ├── components/
 │   │   │   ├── Navigation.js
 │   │   │   ├── ContactList.js
 │   │   │   ├── ContactForm.js
 │   │   │   └── ContactDetails.js
-│   │   ├── 📁 services/
+│   │   ├── services/
 │   │   │   └── contactService.js
 │   │   ├── App.js
 │   │   ├── App.css
@@ -99,7 +99,7 @@ npm install
 npm start
 ```
 
-## 🌐 URLs del Proyecto
+## URLs del Proyecto
 
 - **Frontend React**: http://localhost:3000
 - **Backend API**: http://localhost:3001
@@ -140,6 +140,31 @@ npm test       # Ejecutar tests
 | PUT | `/api/contacts/:id` | Actualizar contacto |
 | DELETE | `/api/contacts/:id` | Eliminar contacto |
 
+### Capturas del Proyecto
+## Backend
+- Mi Api
+  
+  ![my_api](https://github.com/user-attachments/assets/31d0e1a6-a8eb-4c74-8d9f-617a9cbcb7bd)
+  
+- Images docker
+  ![images docker](https://github.com/user-attachments/assets/54b1b5c0-50a7-44d9-b767-66ebe117ca83)
+  
+- Containers docker
+  ![containers docker](https://github.com/user-attachments/assets/8ca3de8f-4147-4761-82a2-b9a9ed285821)
+  
+## Frontend
+- Lista de Contactos
+![lista de contactos](https://github.com/user-attachments/assets/82144f06-7911-400d-92a6-5660b64425e1)
+
+- Crear Contacto
+  ![crear contacto](https://github.com/user-attachments/assets/f7f4078b-92a0-4e0d-a8ec-7e6a3a2f6bc4)
+  
+- Editar Contacto
+  ![editar contacto](https://github.com/user-attachments/assets/b1fe0023-0398-49ca-a510-79d714ec853d)
+  
+- Detalles de Contacto
+  ![detalles del contacto](https://github.com/user-attachments/assets/e5b279fe-4087-4381-baee-78e5d5555c23)
+
 ## Docker
 
 El proyecto incluye configuración completa de Docker:
@@ -149,11 +174,11 @@ El proyecto incluye configuración completa de Docker:
 - **MongoDB**: Base de datos
 - **Docker Compose**: Orquestación de servicios
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto está bajo la Licencia MIT.
 
-## 🚀 COMANDOS COMPLETOS PARA EJECUTAR EL PROYECTO
+## COMANDOS COMPLETOS PARA EJECUTAR EL PROYECTO
 
 ### OPCIÓN 1: Con Docker (MÁS FÁCIL)
 
