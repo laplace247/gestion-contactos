@@ -1,0 +1,29 @@
+{
+  "name": "gestion-contactos-backend",
+  "version": "1.0.0",
+  "description": "API REST para gestión de contactos - AtenciónTotal",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "mongoose": "^7.8.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "keywords": [
+    "api",
+    "contacts",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "AtenciónTotal",
+  "license": "MIT"
+}
